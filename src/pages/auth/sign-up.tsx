@@ -53,16 +53,16 @@ export function SignUp() {
         <div className="flex w-[350px] flex-col justify-center gap-6">
           <div className="flex flex-col gap-2 text-center">
             <h1 className="text-2xl font-semibold tracking-tight">
-              Criar conta gratis
+              Criar conta grátis
             </h1>
             <p className="text-muted-foreground text-sm">
-              Seja um parceiro e comece suas vendas!
+              Comece a gerenciar o treino dos seus alunos agora!
             </p>
           </div>
 
           <form className="space-y-4" onSubmit={handleSubmit(handleSignUp)}>
             <div className="space-y-2">
-              <Label htmlFor="name">Nome do restaurante</Label>
+              <Label htmlFor="name">Nome do treinador</Label>
               <Input
                 id="name"
                 type="text"
