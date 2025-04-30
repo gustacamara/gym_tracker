@@ -8,7 +8,7 @@ export function App() {
 
   return (
     <HelmetProvider>
-      <ThemeProvider>
+      <ThemeProvider storageKey='gym-tracker-theme' defaultTheme='dark'>
         <Helmet titleTemplate="%s | gym.tracker" />
         <Toaster closeButton duration={3000} />
         <RouterProvider router={router} />
