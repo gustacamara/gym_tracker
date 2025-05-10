@@ -1,4 +1,4 @@
-import { Home, Dumbbell, CalendarDays } from 'lucide-react'
+import { Home, Dumbbell, History } from 'lucide-react'
 
 import { AccountMenu } from './account-menu'
 import { NavLink } from './nav-link'
@@ -18,9 +18,9 @@ export function Header() {
             <Home className="h-4 w-4" />
             Inicio
           </NavLink>
-          <NavLink to="/workouts">
-            <CalendarDays className="h-4 w-4" />
-            Treinos
+          <NavLink to="/history">
+            <History className="h-4 w-4" />
+            Histórico
           </NavLink>
         </nav>
 

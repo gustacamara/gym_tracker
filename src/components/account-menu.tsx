@@ -40,7 +40,7 @@ export function AccountMenu() {
 
         <DropdownMenuItem className="text-rose-500 dark:text-rose-400">
           <LogOut className="text-rose-500 dark:text-rose-400" />
-          <Link to="/sign-in" className="w-full">
+          <Link to="/sign-in" className="w-full text-rose-500 dark:text-rose-400">
             <span>Sair</span>
           </Link>
         </DropdownMenuItem>

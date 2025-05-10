@@ -10,7 +10,7 @@ export function AuthLayout() {
           <span className="font-semibold">Gym.tracker</span>
         </div>
         <footer className="text-sm">
-          Painel do parceiro &copy; Gym.tracker - {new Date().getFullYear()}
+          Painel do treinador &copy; Gym.tracker - {new Date().getFullYear()}
         </footer>
       </div>
 
